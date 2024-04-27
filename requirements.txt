@@ -3,5 +3,5 @@ gunicorn==19.9.0
 Jinja2==3.1.2
 certifi==2022.9.24
 itsdangerous==2.2.0
-six
 urllib3==1.26.12
+urlparse4==0.1.3
