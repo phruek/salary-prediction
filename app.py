@@ -1,4 +1,4 @@
-from flask import Flask,request, redirect, render_template, jsonify
+from flask import Flask,request, redirect, render_template
 import pandas as pd
 import pickle
 import numpy as np
@@ -19,7 +19,7 @@ def predict_api():
     # data_unseen = pd.DataFrame([data])
     # prediction = predict_model(model, data=data_unseen)
     # output = prediction.Label[0]
-    return jsonify()
+    return ''
 
 if __name__ == '__main__':
     app.run(debug=True)
